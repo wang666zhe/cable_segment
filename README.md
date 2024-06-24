@@ -33,9 +33,11 @@ YOLOv8 模型是 Ultralytics 团队与众多贡献者们，在YOLO v5模型的�
 
 ### 四、预测
 
+安装pytorch环境
+
+安装依赖
 ```
-#安装环境
-pip install -r requirements.txt
+pip install ultralytics
 ```
 
 runs/segment/data100n-1080/weights/best.pt为训练好的模型，100 epoch，预训练模型为yolov8n-seg.pt，输入图像尺寸为1080。
