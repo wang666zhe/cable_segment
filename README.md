@@ -14,14 +14,17 @@ YOLOv8 模型是 Ultralytics 团队与众多贡献者们，在YOLO v5模型的�
 
 #### 2、训练
 设置输入图像大小为1080，模型训练100 epoch，分割损失如下。
+
 <img src="assets/seg_loss.png" alt="分割损失" title="seg_loss" width="350"/>
 
 
 #### 3、验证
 在验证集上测试模型得到Mask Precision-Recall Curve
+
 <img src="assets/P-R.png" alt="P-R图" title="P-R" width="360"/>
 
 绘制mAP50和mAP50-95曲线
+
 <img src="assets/mAP.png" alt="mAP" title="mAP" width="350"/>
 
 #### 4、分割结果
