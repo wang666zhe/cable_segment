@@ -5,7 +5,7 @@
 ### 二、模型介绍
 YOLOv8 模型是 Ultralytics 团队与众多贡献者们，在YOLO v5模型的框架基础上，吸收加入了众多优秀模块，改进了多个模型结构，而提出的一个实时多任务模型。它更进一步提高了模型性能和通用性，在边缘设备部署和工业应用方面的效果远远超过其他模型。 YOLOv8根据不同的架构规模进行划分，包括n、s、m、l、x五种规模，其中模型参数量和精度呈正相关关系。使用者可以根据不同的场景和计算能力要求选择合适的模型规模。YOLOv8模型的架构主要包括三大模块：Backbone主干网络、Neck瓶颈结构以及Head输出头。这些模块共同构成了整个模型的基础架构。
 
-<img src="assets/framework.png" alt="框架图" title="framework" width="370"/>
+<img src="assets/framework.png" alt="框架图" title="framework" width="500"/>
 
 ### 三、实现
 
